@@ -1,0 +1,1271 @@
+{
+    "Version": 2,
+    "InvertedXAxis": false,
+    "InvertedYAxis": false,
+    "MouseSensitivity": 0.7,
+    "MouseAimingSensitivity": 0.5,
+    "DoubleClickTimeout": 0.3,
+    "axisBindings": [
+      {
+        "axisName": "MoveX",
+        "pairs": [
+          {
+            "positive": {
+              "keyCode": [
+                "D"
+              ],
+              "axisName": ""
+            },
+            "negative": {
+              "keyCode": [
+                "A"
+              ],
+              "axisName": ""
+            }
+          },
+          {
+            "positive": {
+              "keyCode": []
+            },
+            "negative": {
+              "keyCode": []
+            }
+          }
+        ]
+      },
+      {
+        "axisName": "MoveY",
+        "pairs": [
+          {
+            "positive": {
+              "keyCode": [
+                "W"
+              ],
+              "axisName": ""
+            },
+            "negative": {
+              "keyCode": [
+                "S"
+              ],
+              "axisName": ""
+            }
+          },
+          {
+            "positive": {
+              "keyCode": []
+            },
+            "negative": {
+              "keyCode": []
+            }
+          }
+        ]
+      },
+      {
+        "axisName": "TurnX",
+        "pairs": [
+          {
+            "positive": {
+              "isAxis": true,
+              "keyCode": [],
+              "axisName": "Mouse X",
+              "positiveAxis": true,
+              "sensitivity": 5.0
+            },
+            "negative": {
+              "isAxis": true,
+              "keyCode": [],
+              "axisName": "Mouse X",
+              "sensitivity": 5.0
+            }
+          },
+          {
+            "positive": {
+              "keyCode": []
+            },
+            "negative": {
+              "keyCode": []
+            }
+          }
+        ]
+      },
+      {
+        "axisName": "TurnY",
+        "pairs": [
+          {
+            "positive": {
+              "isAxis": true,
+              "keyCode": [],
+              "axisName": "Mouse Y",
+              "sensitivity": 5.0
+            },
+            "negative": {
+              "isAxis": true,
+              "keyCode": [],
+              "axisName": "Mouse Y",
+              "positiveAxis": true,
+              "sensitivity": 5.0
+            }
+          },
+          {
+            "positive": {
+              "keyCode": []
+            },
+            "negative": {
+              "keyCode": []
+            }
+          }
+        ]
+      },
+      {
+        "axisName": "LookX",
+        "pairs": [
+          {
+            "positive": {
+              "isAxis": true,
+              "keyCode": [],
+              "axisName": "Mouse X",
+              "positiveAxis": true,
+              "sensitivity": 5.0
+            },
+            "negative": {
+              "isAxis": true,
+              "keyCode": [],
+              "axisName": "Mouse X",
+              "sensitivity": 5.0
+            }
+          },
+          {
+            "positive": {
+              "keyCode": []
+            },
+            "negative": {
+              "keyCode": []
+            }
+          }
+        ]
+      },
+      {
+        "axisName": "LookY",
+        "pairs": [
+          {
+            "positive": {
+              "isAxis": true,
+              "keyCode": [],
+              "axisName": "Mouse Y",
+              "sensitivity": 5.0
+            },
+            "negative": {
+              "isAxis": true,
+              "keyCode": [],
+              "axisName": "Mouse Y",
+              "positiveAxis": true,
+              "sensitivity": 5.0
+            }
+          },
+          {
+            "positive": {
+              "keyCode": []
+            },
+            "negative": {
+              "keyCode": []
+            }
+          }
+        ]
+      },
+      {
+        "axisName": "LeanX",
+        "pairs": [
+          {
+            "positive": {
+              "keyCode": [
+                "D",
+                "LeftAlt"
+              ],
+              "axisName": "",
+              "positiveAxis": true,
+              "sensitivity": 5.0
+            },
+            "negative": {
+              "keyCode": [
+                "A",
+                "LeftAlt"
+              ],
+              "axisName": "",
+              "positiveAxis": true,
+              "sensitivity": 5.0
+            }
+          },
+          {
+            "positive": {
+              "keyCode": []
+            },
+            "negative": {
+              "keyCode": []
+            }
+          }
+        ]
+      }
+    ],
+    "keyBindings": [
+      {
+        "keyName": "LeanLockRight",
+        "variants": [
+          {
+            "keyCode": [
+              "E"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Continuous"
+      },
+      {
+        "keyName": "LeanLockLeft",
+        "variants": [
+          {
+            "keyCode": [
+              "Q"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Continuous"
+      },
+      {
+        "keyName": "Shoot",
+        "variants": [
+          {
+            "keyCode": [
+              "Mouse0"
+            ]
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Continuous"
+      },
+      {
+        "keyName": "Aim",
+        "variants": [
+          {
+            "keyCode": [
+              "Mouse1"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Press"
+      },
+      {
+        "keyName": "ChangeAimScope",
+        "variants": [
+          {
+            "keyCode": [
+              "Mouse1",
+              "LeftControl"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Press"
+      },
+      {
+        "keyName": "ChangeAimScopeMagnification",
+        "variants": [
+          {
+            "keyCode": []
+          },
+          {
+            "keyCode": [
+              "Mouse4"
+            ]
+          }
+        ],
+        "pressType": "Release"
+      },
+      {
+        "keyName": "Nidnod",
+        "variants": [
+          {
+            "keyCode": [
+              "Mouse2"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Release"
+      },
+      {
+        "keyName": "ToggleGoggles",
+        "variants": [
+          {
+            "keyCode": [
+              "N"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Press"
+      },
+      {
+        "keyName": "ToggleHeadLight",
+        "variants": [
+          {
+            "keyCode": [
+              "H"
+            ]
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Release"
+      },
+      {
+        "keyName": "SwitchHeadLight",
+        "variants": [
+          {
+            "keyCode": [
+              "H",
+              "LeftControl"
+            ]
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Release"
+      },
+      {
+        "keyName": "ToggleVoip",
+        "variants": [
+          {
+            "keyCode": []
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Press"
+      },
+      {
+        "keyName": "PushToTalk",
+        "variants": [
+          {
+            "keyCode": [
+              "V"
+            ]
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Continuous"
+      },
+      {
+        "keyName": "Mumble",
+        "variants": [
+          {
+            "keyCode": [
+              "Y"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "DoubleClick"
+      },
+      {
+        "keyName": "MumbleDropdown",
+        "variants": [
+          {
+            "keyCode": [
+              "Y"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Continuous"
+      },
+      {
+        "keyName": "MumbleQuick",
+        "variants": [
+          {
+            "keyCode": [
+              "Y"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Release"
+      },
+      {
+        "keyName": "WatchTime",
+        "variants": [
+          {
+            "keyCode": [
+              "O"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Press"
+      },
+      {
+        "keyName": "WatchTimerAndExits",
+        "variants": [
+          {
+            "keyCode": [
+              "O"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "DoubleClick"
+      },
+      {
+        "keyName": "Tactical",
+        "variants": [
+          {
+            "keyCode": [
+              "T"
+            ]
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Press"
+      },
+      {
+        "keyName": "NextTacticalDevice",
+        "variants": [
+          {
+            "keyCode": [
+              "T",
+              "LeftControl"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Press"
+      },
+      {
+        "keyName": "Next",
+        "variants": [
+          {
+            "isAxis": true,
+            "keyCode": [],
+            "axisName": "Mouse Scroll",
+            "positiveAxis": true
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Press"
+      },
+      {
+        "keyName": "Previous",
+        "variants": [
+          {
+            "isAxis": true,
+            "keyCode": [],
+            "axisName": "Mouse Scroll"
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Press"
+      },
+      {
+        "keyName": "Interact",
+        "variants": [
+          {
+            "keyCode": [
+              "F"
+            ]
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Continuous"
+      },
+      {
+        "keyName": "ThrowGrenade",
+        "variants": [
+          {
+            "keyCode": [
+              "G"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Press"
+      },
+      {
+        "keyName": "ReloadWeapon",
+        "variants": [
+          {
+            "keyCode": [
+              "R"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Release"
+      },
+      {
+        "keyName": "QuickReloadWeapon",
+        "variants": [
+          {
+            "keyCode": [
+              "R"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "DoubleClick"
+      },
+      {
+        "keyName": "DropBackpack",
+        "variants": [
+          {
+            "keyCode": [
+              "Z"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "DoubleClick"
+      },
+      {
+        "keyName": "NextMagazine",
+        "variants": [
+          {
+            "isAxis": true,
+            "keyCode": [
+              "R"
+            ],
+            "axisName": "Mouse Scroll",
+            "positiveAxis": true
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Press"
+      },
+      {
+        "keyName": "PreviousMagazine",
+        "variants": [
+          {
+            "isAxis": true,
+            "keyCode": [
+              "R"
+            ],
+            "axisName": "Mouse Scroll"
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Press"
+      },
+      {
+        "keyName": "ChangePointOfView",
+        "variants": [
+          {
+            "keyCode": [
+              "Home"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Press"
+      },
+      {
+        "keyName": "CheckAmmo",
+        "variants": [
+          {
+            "keyCode": [
+              "T"
+            ]
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "DoubleClick"
+      },
+      {
+        "keyName": "ShootingMode",
+        "variants": [
+          {
+            "keyCode": [
+              "B"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Press"
+      },
+      {
+        "keyName": "ForceAutoWeaponMode",
+        "variants": [
+          {
+            "keyCode": [
+              "B"
+            ]
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "DoubleClick"
+      },
+      {
+        "keyName": "CheckFireMode",
+        "variants": [
+          {
+            "keyCode": [
+              "B",
+              "LeftAlt"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Press"
+      },
+      {
+        "keyName": "CheckChamber",
+        "variants": [
+          {
+            "keyCode": [
+              "L"
+            ]
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "DoubleClick"
+      },
+      {
+        "keyName": "ChamberUnload",
+        "variants": [
+          {
+            "keyCode": [
+              "R",
+              "LeftControl"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Press"
+      },
+      {
+        "keyName": "UnloadMagazine",
+        "variants": [
+          {
+            "keyCode": [
+              "R",
+              "LeftAlt"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Press"
+      },
+      {
+        "keyName": "Prone",
+        "variants": [
+          {
+            "keyCode": [
+              "X"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Press"
+      },
+      {
+        "keyName": "Sprint",
+        "variants": [
+          {
+            "keyCode": [
+              "LeftShift"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Press"
+      },
+      {
+        "keyName": "Duck",
+        "variants": [
+          {
+            "keyCode": [
+              "C"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Release"
+      },
+      {
+        "keyName": "NextWalkPose",
+        "variants": [
+          {
+            "isAxis": true,
+            "keyCode": [
+              "C"
+            ],
+            "axisName": "Mouse Scroll",
+            "positiveAxis": true
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Press"
+      },
+      {
+        "keyName": "PreviousWalkPose",
+        "variants": [
+          {
+            "isAxis": true,
+            "keyCode": [
+              "C"
+            ],
+            "axisName": "Mouse Scroll"
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Press"
+      },
+      {
+        "keyName": "Walk",
+        "variants": [
+          {
+            "keyCode": [
+              "CapsLock"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Press"
+      },
+      {
+        "keyName": "BlindShootAbove",
+        "variants": [
+          {
+            "keyCode": [
+              "W",
+              "LeftAlt"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Continuous"
+      },
+      {
+        "keyName": "BlindShootRight",
+        "variants": [
+          {
+            "keyCode": [
+              "S",
+              "LeftAlt"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Continuous"
+      },
+      {
+        "keyName": "StepRight",
+        "variants": [
+          {
+            "keyCode": [
+              "E",
+              "LeftAlt"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Continuous"
+      },
+      {
+        "keyName": "StepLeft",
+        "variants": [
+          {
+            "keyCode": [
+              "Q",
+              "LeftAlt"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Continuous"
+      },
+      {
+        "keyName": "ExamineWeapon",
+        "variants": [
+          {
+            "keyCode": [
+              "L"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Press"
+      },
+      {
+        "keyName": "FoldStock",
+        "variants": [
+          {
+            "keyCode": [
+              "L",
+              "LeftAlt"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Press"
+      },
+      {
+        "keyName": "Inventory",
+        "variants": [
+          {
+            "keyCode": [
+              "Tab"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Press"
+      },
+      {
+        "keyName": "Jump",
+        "variants": [
+          {
+            "keyCode": [
+              "Space"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Press"
+      },
+      {
+        "keyName": "Knife",
+        "variants": [
+          {
+            "keyCode": []
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Press"
+      },
+      {
+        "keyName": "QuickKnife",
+        "variants": [
+          {
+            "keyCode": [
+              "Mouse3"
+            ]
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Press"
+      },
+      {
+        "keyName": "PrimaryWeaponFirst",
+        "variants": [
+          {
+            "keyCode": [
+              "Alpha2"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Press"
+      },
+      {
+        "keyName": "PrimaryWeaponSecond",
+        "variants": [
+          {
+            "keyCode": [
+              "Alpha3"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Press"
+      },
+      {
+        "keyName": "SecondaryWeapon",
+        "variants": [
+          {
+            "keyCode": [
+              "Alpha1"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Press"
+      },
+      {
+        "keyName": "QuickSecondaryWeapon",
+        "variants": [
+          {
+            "keyCode": [
+              "Alpha1"
+            ]
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "DoubleClick"
+      },
+      {
+        "keyName": "Slot4",
+        "variants": [
+          {
+            "keyCode": [
+              "Alpha4"
+            ]
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Release"
+      },
+      {
+        "keyName": "Slot5",
+        "variants": [
+          {
+            "keyCode": [
+              "Alpha5"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Press"
+      },
+      {
+        "keyName": "Slot6",
+        "variants": [
+          {
+            "keyCode": [
+              "Alpha6"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Press"
+      },
+      {
+        "keyName": "Slot7",
+        "variants": [
+          {
+            "keyCode": [
+              "Alpha7"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Press"
+      },
+      {
+        "keyName": "Slot8",
+        "variants": [
+          {
+            "keyCode": [
+              "Alpha8"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Press"
+      },
+      {
+        "keyName": "Slot9",
+        "variants": [
+          {
+            "keyCode": [
+              "Alpha9"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Press"
+      },
+      {
+        "keyName": "Slot0",
+        "variants": [
+          {
+            "keyCode": [
+              "Alpha0"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Press"
+      },
+      {
+        "keyName": "OpticCalibrationSwitchUp",
+        "variants": [
+          {
+            "keyCode": [
+              "PageUp"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Press"
+      },
+      {
+        "keyName": "OpticCalibrationSwitchDown",
+        "variants": [
+          {
+            "keyCode": [
+              "PageDown"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Press"
+      },
+      {
+        "keyName": "MakeScreenshot",
+        "variants": [
+          {
+            "keyCode": [
+              "SysReq"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Press"
+      },
+      {
+        "keyName": "ThrowItem",
+        "variants": [
+          {
+            "keyCode": [
+              "U"
+            ]
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Press"
+      },
+      {
+        "keyName": "Breath",
+        "variants": [
+          {
+            "keyCode": [
+              "LeftAlt"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Press"
+      },
+      {
+        "keyName": "ToggleInfo",
+        "variants": [
+          {
+            "keyCode": [
+              "I"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Press"
+      },
+      {
+        "keyName": "Console",
+        "variants": [
+          {
+            "keyCode": [
+              "BackQuote"
+            ],
+            "axisName": ""
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Press"
+      },
+      {
+        "keyName": "PressSlot4",
+        "variants": [
+          {
+            "keyCode": [
+              "Alpha4"
+            ]
+          },
+          {
+            "keyCode": []
+          }
+        ],
+        "pressType": "Press"
+      }
+    ]
+  }
